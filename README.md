@@ -24,11 +24,11 @@ team will do everything necessary to make the system as user-friendly as possibl
 
 ![image](https://user-images.githubusercontent.com/74132232/195018259-cadff374-cffe-4b75-bfc1-b707239403be.png)
 
-Semantic Network
+# Semantic Network
 ![image](https://user-images.githubusercontent.com/74132232/195018607-66acc977-676e-4cfc-8a8c-726898b69005.png)
 ![image](https://user-images.githubusercontent.com/74132232/195018662-5fb3b06b-1d23-4f12-a1fc-fd02097da6f8.png)
 
-Disbot
+# Disbot
 ![image](https://user-images.githubusercontent.com/74132232/195018760-412e1c84-84ba-4e6e-b722-899a904623f4.png)
 ![image](https://user-images.githubusercontent.com/74132232/195018805-8160ad45-1918-452d-a197-a2ca8a06e856.png)
 ![image](https://user-images.githubusercontent.com/74132232/195018837-745b7828-cb49-4c5a-a61e-6e8f1e5c1a0b.png)
