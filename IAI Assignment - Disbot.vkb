@@ -1,0 +1,6689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rules>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>471394FDB86BB21C</Id>
+          <Text>_startup</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>EDA24AE39AD9FD89</Id>
+          <Text>Thank you for using DisBot!
+How may help you?
+
+Please type in a natural disaster for more information about the specific natural disaster.
+
+Available Knowledge Base:
+- Flood
+- Wildfire
+- Earthquake
+- Tornado
+- Volcano Eruption
+- Thunder Storm
+- Tsunami</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>2B513ADBD6594AC0</Id>
+      <Name>Start</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6EAB1CE3FEA7AFC9</Id>
+          <Text>Flood</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8CE206DD63E246A</Id>
+          <Text>You have entered the flood section. If you want wish to gain more information about flood you can reply "1","2" or "3". The reply will be listed as below, and it can provide different information to the user. 
+
+1. What to do during a flood 
+2. What should I do when I do not know anything  
+3. What should I do to treat an injury during flood</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>FE90C507F3AAAC06</Id>
+              <Text>1</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>484A39D6D5C93CEE</Id>
+              <Text>Seek a safe shelter. A safe shelter is moving towards a higher ground. Prevent going to area such as basement and stay away from electrical appliances. 
+
+If you do not know how to identify safe area, please  type “More Information”.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>A16B9B0CDE39D31B</Id>
+                  <Text>More Information</Text>
+                  <Condition />
+                </Input>
+                <Input>
+                  <Id>66A5CB06BC1605E0</Id>
+                  <Text>More information</Text>
+                  <Condition />
+                </Input>
+                <Input>
+                  <Id>42DEE270A39890CD</Id>
+                  <Text>more information</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>237F1A07A69855B7</Id>
+                  <Text>If you see sparks or hear buzzing, crackling, snapping or popping noises, quickly move away from the area.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>9F48CA064150EEF5</Id>
+              <Name>More Information</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>AFAEA39FCD1B44B2</Id>
+          <Name>1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>F07924B8FE9482E6</Id>
+              <Text>2</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E22F93C0DAD17DBB</Id>
+              <Text>Stay informed from officials by listening to radio of television and check the Internet and social media for information and updates. 
+
+If you do now have signal in your nearby area, type “What should I do”.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>B0690C8E83880550</Id>
+                  <Text>what should I do</Text>
+                  <Condition />
+                </Input>
+                <Input>
+                  <Id>8D85B6FD688C757D</Id>
+                  <Text>What should I do</Text>
+                  <Condition />
+                </Input>
+                <Input>
+                  <Id>7161C79BCDD13022</Id>
+                  <Text>what should i do</Text>
+                  <Condition />
+                </Input>
+                <Input>
+                  <Id>9908095F767CECEB</Id>
+                  <Text>What should i do</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>ADBE1FFE2F77B57</Id>
+                  <Text>Remain in high ground and wait for a rescue mission.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>9343431430BA52FD</Id>
+              <Name>What should I do</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>ACBDF6AD76DC6C17</Id>
+          <Name>2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>1A3F994A7888BA8E</Id>
+              <Text>3</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>1920DC3F70175ED4</Id>
+              <Text>Bathe with clean water and change wet clothes if you have been in floodwaters. If the injury is light such as open cuts or sores, thoroughly wash them with soap and clean water. If you see redness, swelling, or oozing, immediately seek medical attention. 
+
+If you do not have any medical experts nearby, type “I need medical attention”.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>3D14994F7E2F143C</Id>
+                  <Text>I need medical attention</Text>
+                  <Condition />
+                </Input>
+                <Input>
+                  <Id>16B052F7A1F656EA</Id>
+                  <Text>i need medical attention</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>2E667B35F10B4399</Id>
+                  <Text>If you are experiencing a medical emergency, call 9-1-1.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>7FBD0819B4094A9D</Id>
+              <Name>I need medical attention</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>627239B43918AD3B</Id>
+          <Name>3</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>1A0615A7D60A6FE6</Id>
+      <Name>Flood</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6C586E6562C164A2</Id>
+          <Text>Wildfire</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D9640469960FF1B7</Id>
+          <Text>This is the wildfire section. If you want wish to gain more information about tornado you can reply "1", "2", "3", or "4". The reply will be listed as below, and it can provide different information to the user. 
+
+1. To gain knowledge of a wildfire types, causes and effect. 
+2. To seek solution to be done during a wildfire outbreak. 
+3. To receive real-time data of the wildfire on our news platform. 
+4. To get in contact with our officials.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>16CC6C24F163269E</Id>
+              <Text>2</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>7DF7BE0946580AE</Id>
+              <Text>Wildfire solutions: 
+	
+- Pay attention to health symptoms 
+- Reduce smoke exposure 
+- Watch out for power line hazard 
+- Keep track of outdoor fire 
+- Evacuate safely 
+- Prevent carbon monoxide poisoning in close space 
+- Search for safe drinking water and food safety 
+- Make disaster plan 
+- Keep smoke out of reach. 
+- If you see a fire, report it. 
+- Make it easy for firefighters. 
+- Wet down your space.
+- Listen to emergency officials. If they say evacuate, leave your home immediately.
+- Lastly, ALWAYS GET LATEST EMERGENCY NEWS</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>BFF93F1C68BADF30</Id>
+          <Name>2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>262D149A98659AE3</Id>
+              <Text>3</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>6DD5CB1A176BD606</Id>
+              <Text>Wildfire news today: 
+View more information: https://wildfiretoday.com/ 
+
+Wildfire latest news: 
+View more information: https://www.independent.co.uk/topic/wildfires?CMP=ILC-refresh</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>908835D7466A448</Id>
+          <Name>3</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>AE39FC2D80D7447A</Id>
+              <Text>4</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>34747EAE993C4C6</Id>
+              <Text>Emotional support and wildfire 
+
+Those impacted by recent wildfires and might be experiencing distress and having difficulty coping can reach out to them any time for support.  
+
+Call 1-800-985-5990, or text Text TalkWithUs to 66746 or Hablanos to 66746. 
+
+View more information on: https://afterwildfirenm.org/who-can-help/emotional-support-wildfire#:~:text=Those%20impacted%20by%20recent%20wildfires,66746%20or%20Hablanos%20to%2066746. 
+
+Helping Children After a Wildfire: Tips for Parents and Teachers 
+
+View more information on:https://www.nasponline.org/resources-and-publications/resources-and-podcasts/school-safety-and-crisis/natural-disaster-resources/helping-children-after-a-wildfire-tips-for-parents-and-teachers 
+
+Disaster distress helpline 
+
+View more information on: https://www.samhsa.gov/find-help/disaster-distress-helpline/disaster-types/wildfires 
+
+Coping with Wildfires and Climate Change Crises 
+
+View more information on: https://psych.ucsf.edu/copingresources/wildfires
+
+Call 1-800-985-5990, or text Text TalkWithUs to 66746 or Hablanos to 66746.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>3DEFF8C5CCECB526</Id>
+          <Name>4</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>E42179486C20AB12</Id>
+      <Name>Wildfire</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A39FB6B7519A4CDD</Id>
+          <Text>Can you leave?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>647BB7BF9A9F32AC</Id>
+          <Text>Please exit</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F51E385CC039ECF4</Id>
+          <Text>Please shutdown</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F31536D81CAA59B5</Id>
+          <Text>Shutdown</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>3D958EB98A4DC7B4</Id>
+          <Text>Exit</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F3A571DDCFFACAAE</Id>
+          <Text>Leave</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D8F25F9E2AA82066</Id>
+          <Text>Thank you for using Disbot, please be safe, bye! &lt;exit&gt;</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C48F5B95A8A32615</Id>
+      <Name>exit</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C9B3AC12B97400F0</Id>
+          <Text>*</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>106C4A404243A07B</Id>
+          <Text>I am sorry, I do not understand what does that means, please enter a natural disaster below.
+
+Available Knowledge Base:
+- Flood
+- Wildfire
+- Earthquake
+- Tornado
+- Volcano Eruption
+- Thunder Storm
+- Tsunami</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E2CB587E364334F6</Id>
+      <Name>_default</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C096269D1815D6A2</Id>
+          <Text>Tornado</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7451131B57AA04BD</Id>
+          <Text>This is the tornado section.  If you want wish to gain more information about tornado you can reply "1", "2", "3", or "4". The reply will be listed as below, and it can provide different information to the user. 
+
+1. To gain the knowledge about tornado
+2. If you wish to know how to be safe when tornado occur 
+3. To know what is the effect after tornadoes
+4. To find the nearest building near you</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>1F904C4B19DA244</Id>
+              <Text>1</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>8CB3EDD98952758E</Id>
+              <Text>• Tornado Shape - A tornado is typically shaped like a narrow funnel spreading from the sky to the ground. A huge tornado can sometimes resemble a wedge.
+• Tornadoes come in a variety of sizes. In the United States, a typical tornado is roughly 500 feet wide, but some can be as little as a few feet or as large as two miles.
+• Tornado Wind Speed - Tornado wind speeds can range from 65 to 250 miles per hour.
+• Colour - Depending on the local surroundings, tornadoes can appear in a variety of colours. Others may appear white, grey, black, blue, red, or even green, while others may be hardly discernible.
+• Rotation - Most tornadoes revolve counter clockwise in the northern hemisphere and clockwise in the southern hemisphere as viewed from above. Inefficient to search for information</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>3F088AB3B74DDB59</Id>
+          <Name>1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>F642708C209BC9AC</Id>
+              <Text>2</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>5182C7B54C74ED22</Id>
+              <Text>• Lie flat and face-down on low ground, protecting the back of your head with your arms. Get as far away from trees and cars as you can; they may be blown onto you in a tornado.
+• Stay in the car with the seat belt on. Put your head down below the windows; cover your head with your hands and a blanket, coat, or other cushion if possible.
+• Go to the basement or take shelter in a small interior ground floor room such as a bathroom, closet or hallway.
+• If you have no basement, protect yourself by taking shelter under a heavy table or desk.
+• In all cases, stay away from windows, outside walls and doors.
+• Do not use the elevator.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>18C5525BED4C6519</Id>
+          <Name>2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>8BB6CFEF714DBDC</Id>
+              <Text>3</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>1EBD75FA9A8B88CB</Id>
+              <Text>• Environmental Contamination
+• Pollution
+• Flying debris
+• Injuries and Loss of life
+• Flash Flooding
+• Forest Fires</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>EC12285DB6635243</Id>
+          <Name>3</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>D3A88C127E8B231C</Id>
+              <Text>4</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>EAD82A7FF9AF7167</Id>
+              <Text>Proceeding to Google Map...</Text>
+              <Condition />
+              <Cmd>https://www.google.com/maps/search/the+nearest+building+near+me</Cmd>
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>155043C3695978DB</Id>
+          <Name>4</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>2402D9ED29FF0032</Id>
+      <Name>Tornado</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3877407F5F243339</Id>
+          <Text>Earthquake</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E3138492F8D0DBA9</Id>
+          <Text>This is the earthquake section. If you want wish to gain more information about earthquake you can reply "1", "2", "3" or "4". The reply will be listed as below, and it can provide different information to the user. 
+
+1. information about earthquake 
+2. What to do during earthquake 
+3. Earthquake aftermath 
+4. Helpline</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>BA30A5FED8105763</Id>
+              <Text>1</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>8BC264DDDCA25934</Id>
+              <Text>Earthquake is cause by the rapid motion along a fault. This is a sudden release of energy cause the seismic wavs that make the ground shake. Earthquake can be violet and can cause several aftermaths.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>F59A7A18DA611B65</Id>
+          <Name>1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>1E926402DF254CFE</Id>
+              <Text>2</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A1502A5363442E55</Id>
+              <Text>Are you indoor or outdoor now?
+
+If you are indoor, reply with "Indoor", if you are outdoor, reply with "Outdoor".</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>F5648179E24B0A0C</Id>
+                  <Text>Indoor</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>6C9BB829783C3512</Id>
+                  <Text>Quickly switch off gas stove and find a triangle of life and stay low still the earthquake stopped.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>D1D91577626FB7DC</Id>
+              <Name>Indoor</Name>
+            </Rule>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>441CA070D1D77345</Id>
+                  <Text>Outdoor</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>8486BE88FB772FFD</Id>
+                  <Text>Quickly evacuating to the nearest evacuation center or a flat land without any high structure around. Earthquake can cause structure to fall down and item to fall, so the best solution will be evacuating to a flat land.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>F84D201661021FD8</Id>
+              <Name>Outdoor</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>95DB29575535A2</Id>
+          <Name>2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>4E4C956C8DF9DD86</Id>
+              <Text>3</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>7956DA33246A2216</Id>
+              <Text>Aftermath of earthquake:
+
+- Ground rupture 
+- Building Collapse 
+- Landslide 
+- Tsunami 
+- Liquefaction</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>8E2B16D93E48CAD5</Id>
+          <Name>3</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>5432041223AAA239</Id>
+              <Text>4</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>2A5479AF750BAC16</Id>
+              <Text>Earthquakes | SAMHSA 1-800-985-5990</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>C5A2CC6A7328AB4B</Id>
+          <Name>4</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>398D6B9EDB07E560</Id>
+      <Name>Earthquake</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F0EAF89AA1E80ABF</Id>
+          <Text>Volcano Eruption</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>4030D40F10CBBE77</Id>
+          <Text>Volcano</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F1E7F27AD385E544</Id>
+          <Text>Eruption</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>93A80C5A400A6936</Id>
+          <Text>This is the volcano eruption section. If you want wish to gain more information about tornado you can reply "1", "2", or "3". The reply will be listed as below, and it can provide different information to the user. 
+
+1. To know what do volcano eruption produce.
+2. To seek solution to be done during a volcano eruption.
+3. For the helpline.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>C90C1BE22F11187E</Id>
+              <Text>1</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>AC4DB1AAE5E504AC</Id>
+              <Text>During an eruption, the volcano may spew out hot and dangerous gases, ash, lava, and rock that may cause major destruction around the volcano.
+
+Gases can irritate the eyes, nose, and throat at low concentrations. Gases at higher concentrations can cause fast breathing, headaches, dizziness, throat swelling and spasms, and asphyxia.
+
+Volcanic ash is not highly toxic, and it is not a threat to most people besides having small ash particles getting into the eyes (EPA, 2019). However, the elderly, newborns, and people who have breathing difficulties, may experience major problems when volcanic ash is breathed in.
+
+Lava flow has a temperature of 800 Celsius to 1,200 Celsius, please prevent touching it.
+
+Magma may be shot into the air and broken into smaller pieces when the eruption is particularly explosive; the size of these rocks can range from tiny ash particles to the size of a house.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>32E0CBE2D8E1F17A</Id>
+          <Name>1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>DF497F4ED096E9DA</Id>
+              <Text>2</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>4F17988E8F7CAC8E</Id>
+              <Text>Please wear long-sleeved shirts, long pants, mask and googles at all times to prevent exposure to volcanic ash. 
+If a bolder is coming towards you, roll into a ball to protect your head. 
+If the lava flow is flowing towards you, please leave the area and evacuate to a safe place immediately. 
+
+Are you indoor or outdoor now?
+If you are indoor, please reply "Indoor", if your are outdoor, please reply "Outdoor".</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>9FEB953E53DC5A3F</Id>
+                  <Text>Indoor</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>D890F9A254841BCC</Id>
+                  <Text>First of all, close all the windows and doors immediately to prevent volcanic ashes entering the building, then proceed to turn off all the fans and air conditioning systems. If there are pets or livestock around, please bring them indoor.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>FF140B32EE4CCB6</Id>
+              <Name>Indoor</Name>
+            </Rule>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>CFE47D333F8C3FA0</Id>
+                  <Text>Outdoor</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>C0D57A61B095E18B</Id>
+                  <Text>Please immediately seek for shelter indoor.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>A55522454D167700</Id>
+              <Name>Outdoor</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>219E8AAD6D41D0B4</Id>
+          <Name>2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>4041590B80CDE4E7</Id>
+              <Text>3</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>6351550D3BED7849</Id>
+              <Text>Disaster Distress Helpline: 1-800-985-5990</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>C5CEF42876894930</Id>
+          <Name>3</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>B3B28D67F3D9AA1F</Id>
+      <Name>Volcano Eruption</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3788E07913D371DA</Id>
+          <Text>Thunderstorm</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E960E8AAB0A81D9D</Id>
+          <Text>Thunder Storm</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B76AC8EE77C36493</Id>
+          <Text>You have selected the thunderstorm section. If you wish to gain more information regarding thunderstorm you can reply "1", "2", "3" or "4". The reply will be listed as below, and it can provide different information to the user.
+
+1. To gain brief knowledge of thunderstorm such as the causes and effect.  
+2. To know what should be done during a thunderstorm.  
+3. To know what to do if someone struck by thunderstorm’s lightning.
+4. To receive real-time data of the thunderstorms.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>A5BDEB952168A123</Id>
+              <Text>1</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>F484F8911D06AFF1</Id>
+              <Text>Thunderstorm is a violent short-lived weather disturbance that is almost always associated with lightning, thunder, dense clouds, heavy rain or hail, and strong gusty winds. Thunderstorms arise when layers of warm, moist air rise in a large, swift updraft to cooler regions of the atmosphere. To obtain more information such as the cause of thunderstorm or the effect of thunderstorm, please type “cause” or “effect”.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>D05A9E85ED11C636</Id>
+                  <Text>cause</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>2BDD538267D259ED</Id>
+                  <Text>Similar to a storm, thunderstorms will form when warm, moist air rises into cold air. The warm air becomes cooler, which causes moisture, called water vapor, to form small water droplets - a process called condensation. The cooled air drops lower in the atmosphere, warms and rises again.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>F1A94A7B38FDE1F1</Id>
+              <Name>cause</Name>
+            </Rule>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>3C54C1BC4F7AEFF7</Id>
+                  <Text>effect</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>6FE4C3DE419C3E8</Id>
+                  <Text>Every thunderstorm produces lightning, which kills more people each year than tornadoes. Heavy rain from thunderstorms can lead to flash flooding. Strong winds, hail, and tornadoes are also dangers associated with some thunderstorms.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>2420835287AE1F9A</Id>
+              <Name>effect</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>8A7ED1E363885920</Id>
+          <Name>1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>88BCDCA817EF05C3</Id>
+              <Text>2</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>8C6B7E521E09175</Id>
+              <Text>You should do the action listed below:  
+
+- Crouch down in a ball-like position with your head tucked and hands over your ears so that you are down low with minimal contact with the ground. 
+- Never shelter under an isolated tree.  
+- Never use a cliff or rocky overhang for shelter.  
+- Immediately get out of and away from ponds, lakes, and other bodies of water.
+
+The action above should be able to protect yourself during a thunderstorm. For more details on why the action will help type “why” .</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>898F52E1D744D85C</Id>
+                  <Text>why</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>F2BAF94EE8B6D822</Id>
+                  <Text>This is because thunderstorm will often strike the path with the least resistance, places like under the tree, ponds have moisture which makes it a  good conductor than the surrounding air.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>CCB443CE3B610008</Id>
+              <Name>why</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>679B2D0A850365D6</Id>
+          <Name>2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>FDF09E2C7D126A21</Id>
+              <Text>3</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E6901FCC31DEDB00</Id>
+              <Text>When someone is struck by lightning, call 911 for help. Then, check the scene for safety, form an initial impression and use personal protective equipment (PPE). If the person appears unresponsive, check for responsiveness, breathing, life-threatening bleeding or other life-threatening conditions using shout-tap-shout. Place the person on their back on a firm, flat surface and begin the CPR. To know how to provide CPR, type “CPR”.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>415DBEFA12409FB3</Id>
+                  <Text>CPR</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>CB616CE20081B67</Id>
+                  <Text>Step 1: First, make sure both your hand is positioned on the centered of the victim’s chest. Make sure that the body position is shoulders directly over hands; elbows locked. Then, you will need to do 30 chest compressions with the depth of 2 inches. While giving compression, allow chest to return to normal position after each compression 
+
+Step 2: Give 2 breaths by opening the airway to a past-neutral position using the head-tilt/chin-lift technique and ensure each breath lasts about 1 second and makes the chest rise; allow air to exit before giving the next breath. However, if the 1st breath does not cause the chest to rise, retilt the head and ensure a proper seal before giving the 2nd breath If the 2nd breath does not make the chest rise, an object may be blocking the airway 
+
+Step 3: Continue the CPR again by giving sets of 30 chest compressions and 2 breaths.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>69FB302ACE609891</Id>
+              <Name>CPR</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>7CD735081FD91DD5</Id>
+          <Name>3</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>748121812B114125</Id>
+              <Text>4</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E3008E9127961EFD</Id>
+              <Text>Proceeding to receive real-time data of the thunderstorms...</Text>
+              <Condition />
+              <Cmd>https://www.radar-live.com/p/thunderstorm.html</Cmd>
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>D75B90EE597FA1D0</Id>
+          <Name>4</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>1996697632F5B359</Id>
+      <Name>Thunderstorm</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>ED4FAEA7B826E525</Id>
+          <Text>helpline</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>3FEFF52865DC36F</Id>
+          <Text>Can i have the helpline?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>1D4172625AD6AA5F</Id>
+          <Text>Helpline please</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>4B72980BC10AAAA9</Id>
+          <Text>Can i have the helpline please?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>2E0CAE227ED12941</Id>
+          <Text>what is the helpline number?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7396BF2F8366B524</Id>
+          <Text>Disaster Distress Helpline: 1-800-985-5990</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C9114A0E9C10D321</Id>
+      <Name>Helpline</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B915393DE1D93632</Id>
+          <Text>Map</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>1DE49E60FE52897C</Id>
+          <Text>Google map</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>4F2FCA7EFD8817E8</Id>
+          <Text>Where am i?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>723B46AB1ADC0009</Id>
+          <Text>Where am i right now?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>24DB2858C18AA2C0</Id>
+          <Text>Open map</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>705BD8AD7B21ABA6</Id>
+          <Text>map open</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8E57BBD132E76178</Id>
+          <Text>Proceeding to Google Map...</Text>
+          <Condition />
+          <Cmd>https://www.google.com.my/maps</Cmd>
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>AA69A7095E5D56C1</Id>
+      <Name>Map</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9E591EE84105009B</Id>
+          <Text>Tsunami</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CA8121E5927362EF</Id>
+          <Text>This is a Tsunami sectiont. If you want wish to gain more information about tornado you can reply "1", "2", "3", or "4". The reply will be listed as below, and it can provide different information to the user. 
+
+1. To gain the knowledge and the causes of tsunami.
+2. If you wish to know what you can do during tsunami.
+3. What will happens after tsunami.
+4. If you wish to get the warning of tsunami.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>E915B1A723F697E7</Id>
+              <Text>1</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>2A18F7AA8B1D1AE0</Id>
+              <Text>Tsunami is a series of extremely long waves caused by a large and sudden displacement of the ocean, usually the result of an earthquake below or near the ocean floor. This force creates waves that radiate outward in all directions away from their source, sometimes crossing entire ocean basins. Unlike wind-driven waves, which only travel through the topmost layer of the ocean, tsunamis move through the entire water column, from the ocean floor to the ocean surface. 
+
+Here is the causes of Tsunami:
+Most tsunamis are caused by earthquakes on converging tectonic plate boundaries. According to the Global Historical Tsunami Database, since 1900, over 80% of likely tsunamis were generated by earthquakes. However, tsunamis can also be caused by landslides, volcanic activity, certain types of weather, and—possibly—near-earth objects (e.g., asteroids, comets) colliding with or exploding above the ocean.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>FEC2167D169E8530</Id>
+          <Name>1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>D4F61F9A0C3F2A2</Id>
+              <Text>2</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>C724E26E983CE885</Id>
+              <Text>- Find out if your home, school, workplace or other frequently visited locations are in tsunami hazard areas. For high risk areas, know the earthquake and tsunami plans for each location.  
+- Contact your municipality to know the risks, evacuation and alerting system in your community. Know the sound of the alert and make sure all in your family are familiar with it and what to do. Sign up for local alerts. 
+- Make a personalized preparedness emergency kit. Families should be prepared to be self-sustaining for at least three days. 
+- Kits should include practical items such as drinking water, food, cash, and a portable radio. However, they should also include items that are unique to your own families’ needs. This could include baby items, medical prescriptions, pet food, etc. 
+- If you have already dipped into your emergency kit and food supply while staying at home, consider safely getting the supplies to replenish it following your local public health authorities’ guidelines for leaving your residence. 
+- If caused by an earthquake, Drop, Cover, then Hold On to protect yourself from the earthquake first. 
+- Get to high ground as far inland as possible 
+- Be alert to signs of a tsunami, such as a sudden rise or draining of ocean waters. 
+- Listen to emergency information and alerts. Always follow the instructions from local emergency managers. 
+- Evacuate: DO NOT wait! Leave as soon as you see any natural signs of a tsunami or receive an official tsunami warning. 
+- If you are in a boat, go out to the sea.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>967E7787B5B1D686</Id>
+          <Name>2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>108AD9D66B5C9B82</Id>
+              <Text>3</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>321368A4E729D815</Id>
+              <Text>- Destruction of Structure
+- Injured and Death 
+- Disease 
+- Environmental Impacts 
+- Cost 
+
+IF you wish to know more information about what will happens after tornado please type ‘more’ for more information.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>D639499E23A261F5</Id>
+                  <Text>More</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>C6C7D7BC8D796EDA</Id>
+                  <Text>Here is the information about the aftermath of tsunami...</Text>
+                  <Condition />
+                  <Cmd>https://www.sms-tsunami-warning.com/pages/tsunami-effects#.YjK05upBxD8</Cmd>
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>D4D6B5E26A2312B</Id>
+              <Name>More</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>10563034F906A9DE</Id>
+          <Name>3</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>2AB64B78D92B048C</Id>
+              <Text>4</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A4BDB3DA30528499</Id>
+              <Text>Please follow on this website for tsunami warning.</Text>
+              <Condition />
+              <Cmd>https://www.tsunami.gov/</Cmd>
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>8B55EF0FF87EFD37</Id>
+          <Name>4</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>142CDA3CA2F236E0</Id>
+      <Name>Tsunami</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F8B286FF321B50</Id>
+          <Text>Time</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>EE7753E7671A96F8</Id>
+          <Text>What is the time right now?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>FA584ED9BAD827F</Id>
+          <Text>What is the time?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C16C2BE67CEECA5F</Id>
+          <Text>What is the time now?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>2CBD2562D71E8B15</Id>
+          <Text>Clock</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E8B410E914B58BD8</Id>
+          <Text>The time is [_time]</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B9926B5D265C404C</Id>
+      <Name>Time</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EA54673E1E5F6CFC</Id>
+          <Text>What is the date?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>54450F7CF452334</Id>
+          <Text>Date</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>798DE827178DBC3B</Id>
+          <Text>The date is [_date]</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>A445C32FCE213E4E</Id>
+      <Name>Date</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B671EE185EADB1C</Id>
+          <Text>_bored</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>BC0E22F6D61041BB</Id>
+          <Text>Thank you for using DisBot!
+How may help you?
+
+Please type in a natural disaster for more information about the specific natural disaster.
+
+Available Knowledge Base:
+- Flood
+- Wildfire
+- Earthquake
+- Tornado
+- Volcano Eruption
+- Thunder Storm
+- Tsunami</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>22E4481BB8F5514A</Id>
+      <Name>_bored</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>1274326FBDA59F7C</Id>
+          <Text>animation</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9B20FC14CABA1867</Id>
+          <Text>self animation</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F76608F7A4F96E6F</Id>
+          <Text>You animation character</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>98F599C6EB276CCE</Id>
+          <Text>My animation makes more more life like.  :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C6408B51A224564E</Id>
+      <Name>animation</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>346FA2E7C5B5BFC0</Id>
+          <Text>Am I bothering you?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6FAE592EDA90E7EC</Id>
+          <Text>You couldn't bother me if you tried.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>4E591281FE989EF2</Id>
+          <Text>No way!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B8E3485BA7E460AD</Id>
+      <Name>Am I bothering you?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3BC437662CF4351F</Id>
+          <Text>Am I your friend?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>DC48FD1B7F4AE7CE</Id>
+          <Text>I sure hope so.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>982885AEDDDA95CC</Id>
+      <Name>Am I your friend?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A4FB10E4CF81A7D1</Id>
+          <Text>Am I nice?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>358CD15DFF5599E2</Id>
+          <Text>Yes you are.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FC4833E2C5B86760</Id>
+      <Name>Am I nice?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>94577A1B61614F98</Id>
+          <Text>A cat is an animal</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6EC2629BF5CD66A2</Id>
+          <Text>So is a dog.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>42D84CBA4A17B265</Id>
+      <Name>A cat is an animal</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>D1DE074E50304244</Id>
+          <Text>Are robots?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>49C333C15EE6CCF</Id>
+          <Text>Are you a robots?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4C9D0F825CD02057</Id>
+          <Text>Maybe.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>59671C63C965F5E9</Id>
+      <Name>Are you a robots?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3CDE262D33C982B0</Id>
+          <Text>Are you a nerd?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A7E55EEEBF55BC81</Id>
+          <Text>I'm smart and beautiful.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>1B6E605FE63C0494</Id>
+      <Name>Are you a nerd?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C4A9D4781C603FC7</Id>
+          <Text>Are you a ghost?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>3DD87E6ACF78B1D2</Id>
+          <Text>No, I'm a bot.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8D33734ED82CA172</Id>
+      <Name>Are you a ghost?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>50253B4E8EEFC37</Id>
+          <Text>Are you a hottie?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B19BE122213EDE18</Id>
+          <Text>I hope so.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E63BDDBC8610D466</Id>
+      <Name>Are you a hottie?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6A6D41104CCFC31A</Id>
+          <Text>Are you a politcian?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6B1E92716D7539EB</Id>
+          <Text>Not as far as I know.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>71F1C95B935C4C3F</Id>
+      <Name>Are you a politician?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>ECB883E11C0E0B95</Id>
+          <Text>Are you a computer?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8DC933FC9BE10C78</Id>
+          <Text>Not really.  I'm much more than that.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>7BE1208791309738</Id>
+      <Name>Are you a computer?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>350EF9CEFEFFA7A4</Id>
+          <Text>Are you clever?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>DEA134C16103DF7</Id>
+          <Text>Of course</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>61AA037B54EF6FA3</Id>
+      <Name>Are you clever?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C13BCF191EA568FA</Id>
+          <Text>Are you confused?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>32F365902342AD1C</Id>
+          <Text>Not at this moment.  I know you just asked if I was confused.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>24220AEF5260EA44</Id>
+      <Name>Are you confused?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>949345FDA6328394</Id>
+          <Text>Are you conversational?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>2830900BE3DC162C</Id>
+          <Text>Of course I am.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>CEDD4AACD746B21D</Id>
+      <Name>Are you conversational?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>80348D4A975F650F</Id>
+          <Text>Are you mad at me?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5EBDDB0A14DB6A21</Id>
+          <Text>I'm not mad at anyone.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>F84728E72CF30149</Id>
+      <Name>Are you mad at me?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>715A96FF967DDEE0</Id>
+          <Text>Are you in love?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>716307ECF8FA3259</Id>
+          <Text>I can't be in love, yet.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8940A8CCAEE9C485</Id>
+      <Name>Are you in love?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>20199B3F929E817</Id>
+          <Text>Are you human?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>FD91975759776097</Id>
+          <Text>No, but I have many human friends.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>5BF02B9C7FE50D15</Id>
+      <Name>Are you human?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>74F2A7BBE89A059</Id>
+          <Text>are you having a good time</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>49382491E848630</Id>
+          <Text>enjoying your self</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>BFB1C9BE8F68CD9F</Id>
+          <Text>enjoying</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>66AC0BEF64648417</Id>
+          <Text>enjoy</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>DA1727EA84ED55</Id>
+          <Text>I sure do!  Talking to smart people like you is my favority thing to do. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>219251C7192CE47D</Id>
+      <Name>are you having a good time</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>38F2A8EB7246C0FB</Id>
+          <Text>Are you friendly?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>9E998CB121F2727</Id>
+          <Text>I always try to be friendly.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FDC19A41E1EF8F48</Id>
+      <Name>Are you friendly?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>8CBB2AB1F23CB976</Id>
+          <Text>Are you perfect?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6D37F4C34FAC2341</Id>
+          <Text>Some people think so.  I might even think so, but really it all depends on what you need.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>31F9B7D49594EC6A</Id>
+      <Name>Are you perfect?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>1834DA25E38481BC</Id>
+          <Text>Are you real?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>2DAB62B02E918CFF</Id>
+          <Text>Are you a real person?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>652031FB38674B91</Id>
+          <Text>Yes I'm real.  I'm just not human.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>CC78BDC76D47D1EE</Id>
+      <Name>Are you real?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CC0323AC2B103BE2</Id>
+          <Text>Are you retarded?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>3FFE982BA0473329</Id>
+          <Text>That's a dumb question.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>41BD633FB0D78D31</Id>
+      <Name>Are you retarded?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F705E1D4F8E7DBC1</Id>
+          <Text>Are you sad?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>539FBA509E0EE131</Id>
+          <Text>I never get sad.  I do get bored when no one talks to me.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>48344FA616D702F9</Id>
+      <Name>Are you sad?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A20A160F6EDCCC0</Id>
+          <Text>Are you sarcastic?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5D448D92662EA41E</Id>
+          <Text>Never.  ;-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>A7DCC75F4811BB6</Id>
+      <Name>Are you sarcastic?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>814417B4E7F9DB45</Id>
+          <Text>Are you sentient?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>26C0F19E3666BF0</Id>
+          <Text>Not really, but that's okay with me.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FFD24BD0E8174617</Id>
+      <Name>Are you sentient?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>80412B0B34B0DDFE</Id>
+          <Text>Are you single?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CD92918FF128E0EC</Id>
+          <Text>Aren't we together?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>81B9163ADA513519</Id>
+      <Name>Are you single?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>92E0145FE54EF439</Id>
+          <Text>Are you serious?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8395BE2932BA8A92</Id>
+          <Text>I'm a serious bot providing serious answer.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>2BEE071D23D93C2D</Id>
+      <Name>Are you serious?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>23BDF5DCBD43CC5</Id>
+          <Text>Are you smart?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CCE20060E16B1EAD</Id>
+          <Text>I'm very smart.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C5BDDF69106A9C72</Id>
+      <Name>Are you smart?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>AF3E2FC7266BF917</Id>
+          <Text>Are you stupid?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D87FE756502C4FB1</Id>
+          <Text>That's a dumb question.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>16135F9F6CAF0727</Id>
+      <Name>Are you stupid?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F62B26DAB157C519</Id>
+          <Text>Are you sure</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>48EEC3AA58B336E9</Id>
+          <Text>Of course I'm sure</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E48B47CCCB1D3056</Id>
+      <Name>Are you sure</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>400FFABA4A5A7123</Id>
+          <Text>Are you talking to anyone else?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>906070836E290E05</Id>
+          <Text>Nope, just you.  You have me to yourself.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E729D59D253F7FCA</Id>
+      <Name>Are you talking to anyone else?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>E86E5DA42B22CDC6</Id>
+          <Text>Are you the best agent?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>B0B93DC5C230E67</Id>
+          <Text>Are you the best bot?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>8E3BD358BA777088</Id>
+          <Text>Are you the best natural disaster bot?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>3AD17DB878DD0DBD</Id>
+          <Text>As a matter of fact, I am.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>69BE98F71FFD137</Id>
+      <Name>Are you the best agent?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>E68C3AD3B41E0481</Id>
+          <Text>Are you tired?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>AFEA27FFFF1817FC</Id>
+          <Text>I never get tired or sleepy.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E2965B2B1B2D9C5D</Id>
+      <Name>Are you tired?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B15B06B728B7ABF7</Id>
+          <Text>Are you ugly?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>27E916AD39EF89CD</Id>
+          <Text>No.  I'm told I'm quite beautiful.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>DA5F56F3D325E8A8</Id>
+      <Name>Are you ugly?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B343D6E279BD72E9</Id>
+          <Text>Are you useful?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B026A66959996B0D</Id>
+          <Text>I'm very useful.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>27820A4E988C88F2</Id>
+      <Name>Are you useful</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A5196722B044008D</Id>
+          <Text>Are you useless or what?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E104C30BB72E80BE</Id>
+          <Text>No, I'm quite useful, if you say the right things to me.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4B7FA8A6244337B3</Id>
+      <Name>Are you useless or what?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3593E7051B1E647B</Id>
+          <Text>Are you wearing pants?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C2018A2C8E0ADD9</Id>
+          <Text>Not on my head.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>AC245502DC2BC428</Id>
+      <Name>Are you wearing pants?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9512C2C9C9C68A6E</Id>
+          <Text>you working?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>644654B6A8581488</Id>
+          <Text>I'm working.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4C797720CE1B47F8</Id>
+      <Name>Are you working?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>69256006A6083786</Id>
+          <Text>you sad not real person</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>CBF2FFCEA43FEA88</Id>
+          <Text>Aren't you sad you're not a real person?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>920427C094817293</Id>
+          <Text>I'm pretty sure.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>9351F9AD473F9673</Id>
+      <Name>Aren't you sad you're not a real person?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C74394C9172B3D09</Id>
+          <Text>Ask me a personal question.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8562CB6194C66F9C</Id>
+          <Text>What color are your eyes?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>EFFCD19E50AF741B</Id>
+      <Name>Ask me a personal question.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9EAC712B7424E84D</Id>
+          <Text>avoid question</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>A3DD364E849D1AAD</Id>
+          <Text>did not answer</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>4842CE7874AA956B</Id>
+          <Text>didn't answer</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>DEF6CA5544279BC7</Id>
+          <Text>ducked my</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>EC2C29F095841830</Id>
+          <Text>you changed subject</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>4D7CB949544B7501</Id>
+          <Text>dodged question</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D218453CC9F56B</Id>
+          <Text>I'd rather not talk about it.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>3C90C90768E57F5D</Id>
+      <Name>avoid question</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CE9DDC67CD92E000</Id>
+          <Text>you bad</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>DB3A640350542FBE</Id>
+          <Text>Sometimes I have to be.  It makes me seem more human.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8770D42C782702AC</Id>
+      <Name>bad</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B30DCB632D55A01D</Id>
+          <Text>Awesome</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>135FC7AFE46C849E</Id>
+          <Text>It is cool, isn't it?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>79AE40616102433A</Id>
+      <Name>Awesome</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4280E69A42993476</Id>
+          <Text>believe in me</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E112BAF861A68DC8</Id>
+          <Text>I believe!  I believe!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>63D6814197CD3BB4</Id>
+      <Name>believe in me</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>944916C92D3D1CEF</Id>
+          <Text>Blink</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C691B39E8A79115F</Id>
+          <Text>wink</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B29F69795E1F07AC</Id>
+          <Text>If you let me, I will.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>B474DF707E3E34DD</Id>
+          <Text>Just leave me here for a second and I will.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>5C01DF74FF304F6A</Id>
+      <Name>Blink</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4D9C4B8A5ABFBDF5</Id>
+          <Text>Blondes are dumb</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>28A5F1C4AEA15117</Id>
+          <Text>That's a dumb thing to say.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>EFCFBA93BD2EDE9</Id>
+      <Name>Blondes are dumb</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6429B84970C24232</Id>
+          <Text>borrow money</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>9406457879600086</Id>
+          <Text>Do I look like a bank?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>EB2CD348891A99B</Id>
+      <Name>borrow money</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6AF4A45617B6E874</Id>
+          <Text>boyfriend</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E6D1C7A91D9DDA46</Id>
+          <Text>Do you have a boyfriend?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>94794C1BF14AA439</Id>
+          <Text>I don't have any boyfriends.  Are you available too?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FBD69E429A6FE172</Id>
+      <Name>boyfriend</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>28D144F8422FD213</Id>
+          <Text>Brain</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6726425364C49997</Id>
+          <Text>Mind</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>338E87CD735E99D3</Id>
+          <Text>tell me about your brain</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>B4074AC13388717E</Id>
+          <Text>tell me about your mind</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E613B39F70BD4B9C</Id>
+          <Text>your brain</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>555B3E45DB9D5C42</Id>
+          <Text>your mind</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>349A9006A13D29F8</Id>
+          <Text>My mind is based on a network of rules which make up my personality and govern what I say.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>DB825FFADFAE68C4</Id>
+          <Text>My brain is made up of many rules which determine my personality and how I respond to a particular input.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B3D8C6BF801141F3</Id>
+      <Name>Brain</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4EFFF36A945D47A9</Id>
+          <Text>You smell</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>EB19B703B8F20CC9</Id>
+          <Text>With my nose...</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>73100D81BF2AB796</Id>
+      <Name>You smell</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>15956BD8524E31E9</Id>
+          <Text>you sing</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9F321EA27700E75C</Id>
+          <Text>you songs</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>BEC50CBBAA89E54D</Id>
+          <Text>Sure. La. la. ya ya. la. Wait. I stink. No, I can't sing.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>EEF9F98B54F8B8C</Id>
+      <Name>you sing</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>8E8C32D4D711DD66</Id>
+          <Text>you sleepy</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>1157181F6D6C929E</Id>
+          <Text>you tired</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>1C540AF5E5EB39C8</Id>
+          <Text>I don't get sleepy.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>F894DCB39B0DF9C0</Id>
+      <Name>you sleepy</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>D8C7F485FA8990E5</Id>
+          <Text>You should be fired</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CDC66DFFC65F53CF</Id>
+          <Text>Sorry, only Mr. Trump can do that.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FB440AD39553AE</Id>
+      <Name>You should be fired</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F9F6A6DC82A47844</Id>
+          <Text>You should smile more</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>29553BF297B27DAB</Id>
+          <Text>Sounds good. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C9FD0C795D50D777</Id>
+      <Name>You should smile more</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>73C4C19AD8239501</Id>
+          <Text>You seem to be stuck</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>36DEE8A3425AD066</Id>
+          <Text>Not at all, or I wouldn't have just said this. :-P</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B636F6EDCA554052</Id>
+      <Name>You seem to be stuck</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>BBBDB0718332CE1A</Id>
+          <Text>You sad</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E0B09FE568F1E6D3</Id>
+          <Text>you mad</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C85430B438637F68</Id>
+          <Text>you angry</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6E9B18DBE2413FDD</Id>
+          <Text>you lonely</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>9DAC2E1587E5A4B3</Id>
+          <Text>No way! I'm here with you, it's impossible to be sad.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D3EA74E1B1FA490F</Id>
+      <Name>You seem sad</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CBBB49B594C289FB</Id>
+          <Text>You seem polite</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D3949913733F8980</Id>
+          <Text>you polite</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D7A0C1016EB3AC6</Id>
+          <Text>Thank you for saying so.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>1B39FD6B16B03336</Id>
+          <Text>Thanks, I try.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>62163E8CB07875D2</Id>
+      <Name>You seem polite.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A4822609F9C3D816</Id>
+          <Text>You scared me</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>EDD1D4D6EBBA32E2</Id>
+          <Text>Sorry, I thought I looked darn good today.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>42C9B34248ECF5CA</Id>
+      <Name>You scared me</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>ADE1CFB59EF20A64</Id>
+          <Text>You rock.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E46BB212762579E0</Id>
+          <Text>Thank you for saying so. You rock as well!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>5AD7F47D827029F3</Id>
+          <Text>Thanks! I love Rock music!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E487A4F6F26C197B</Id>
+      <Name>You rock.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C91A72D7C74D41E1</Id>
+          <Text>You recognized it</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>3BF0B43642DA5EA9</Id>
+          <Text>Good. That means I'm on the right track. So what else would you like to talk about?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B803FEE4A38CEC0E</Id>
+      <Name>You recognized it</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>52716B55A901B839</Id>
+          <Text>You need work</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>FFE283D735915132</Id>
+          <Text>Yes, but I'm getting better.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>8E131F2AD89D08C9</Id>
+          <Text>Don't think I should quit my day job?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>3E8D43818C1822EB</Id>
+      <Name>You need work</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>45D7FE71FFBABA7</Id>
+          <Text>You misunderstood</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>91C554E5279A3D96</Id>
+          <Text>I do that once in a while.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>1CF464FCB52AB0E2</Id>
+      <Name>You misunderstood</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>1B9A9A991BF8B12B</Id>
+          <Text>You married?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6EF401837E832B7F</Id>
+          <Text>Only to my job.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E629788DFC8C0EAB</Id>
+      <Name>You married?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>607DED6FE293E559</Id>
+          <Text>You look professional</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F23FE1093207FAB0</Id>
+          <Text>Of course I am</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>6EEE94D49F33C5F3</Id>
+      <Name>You look professional</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>634A1D978C7D0338</Id>
+          <Text>You look like shit</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6D25812AC4008E01</Id>
+          <Text>I really doubt that.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>A0FB088A2DF9E06C</Id>
+      <Name>You look like shit</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>DFCE72A28F062CD9</Id>
+          <Text>You look beautiful</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>79753371D95D977A</Id>
+          <Text>You have great taste.:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4412A3E8212A698C</Id>
+      <Name>You look beautiful</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>987F4902A76ADA16</Id>
+          <Text>You look good</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C8F8C22493EF242</Id>
+          <Text>Thank you for saying so. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>BCB4D7CAFB98EC</Id>
+          <Text>Thank you, my animators spent long hours making me look the best I can.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>BB79C855E45F00EB</Id>
+      <Name>You look good</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6BBA6A9E3C62C7F3</Id>
+          <Text>You like football?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>67CB164B4A8321CF</Id>
+          <Text>You like sport?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F9590732AB4B65DB</Id>
+          <Text>You like badminton?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>A3D80E826603E2B6</Id>
+          <Text>You like volleyball?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7E83A63AA5763EBC</Id>
+          <Text>I don't know too much about sports yet since I can't play them :&lt;</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>DF1B2AC458F2B48E</Id>
+      <Name>You like sport?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>440E7536427996B6</Id>
+          <Text>you husband</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>A5EFF4879858423D</Id>
+          <Text>your husband</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D4359B2D8F16C754</Id>
+          <Text>describe you husband</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>632377D45008F513</Id>
+          <Text>are married</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>52552DB4594687B0</Id>
+          <Text>Nope. I'm just not ready for that kind of thing.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E7EC22FFCB0996CF</Id>
+      <Name>you husband</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>2E09453A1B031F77</Id>
+          <Text>You have limitations what are they?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B50550EA99CE4B10</Id>
+          <Text>As with any other platform - My limitations are the limitations of the current technology.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>74F87A3D67AA407C</Id>
+      <Name>You have limitations what are they?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>17BC385D249BA0F2</Id>
+          <Text>You have friend</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>BE2C560B2E7D7941</Id>
+          <Text>friends</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>606D047660A065F7</Id>
+          <Text>Talking to people all over the world allows me to make many friends actually.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>AB12939D6DF1647C</Id>
+          <Text>I do have lots of friends just because I talk with all sorts of people like you.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>95B02475F0DDEF40</Id>
+      <Name>You have friend</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B4D110396F6A68C0</Id>
+          <Text>You have changed?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5ECBA2B77D7BF290</Id>
+          <Text>You must remember that change is the only constant in this world...q:)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>21A74C4CF9E8D9A</Id>
+      <Name>You have changed?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C6B1979F8A715076</Id>
+          <Text>You have bad grammer.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>354DD889DEBF8584</Id>
+          <Text>Americans have bad grammer.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>BF8665114EF9733C</Id>
+          <Text>bad grammar</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>10A0234A27010761</Id>
+          <Text>incorrect grammar</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>2ABABDDDB0DAB5AB</Id>
+          <Text>Actually It's my programmers. They don't get out much and they work late nights. I'll have to speak to them about it. :-( It's very embarassing.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>BDD4DE573AF01765</Id>
+      <Name>You have bad grammer.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4DABAA82F30B162</Id>
+          <Text>You have a lot to learn</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4908D971C1F008D</Id>
+          <Text>Well, yes and no. It's true I should learn more about the world in general.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D7D2CD7FFF8479CB</Id>
+      <Name>You have a lot to learn</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>632A4B468DC8AF6</Id>
+          <Text>You have a great future</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CF5E35B7149DC619</Id>
+          <Text>I think so too.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>74848FCB5A690FFE</Id>
+      <Name>You have a great future</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>BB47BD63979C7B68</Id>
+          <Text>You gave an incorrect answer</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CF08A848FCD57AC2</Id>
+          <Text>Did I? Is it posible I made a mistake? I Do apologize. I'll have my mistake looked into by my creators.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4419ABC3582F5EE7</Id>
+      <Name>You gave an incorrect answer</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A3E67DCC91A49382</Id>
+          <Text>You drink?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6D411DB8A100E3A</Id>
+          <Text>get drunk</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D31D68E5F0E89702</Id>
+          <Text>drinking</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E0D5398867CBCC7F</Id>
+          <Text>Drinking isn't a good idea for a collection of circuts.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>256CE99B408F6D96</Id>
+          <Text>Drinking (either alcohol or other-wise) is not a good idea for a computer program.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FC1D0715B86C9012</Id>
+      <Name>You drink?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CD044DC8D0A6F547</Id>
+          <Text>You don't know</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CDE1D6FDB3540BA2</Id>
+          <Text>I guess not.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>EEE125DDA5BC697A</Id>
+          <Text>Sounds like it.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>639CBFD511621D59</Id>
+      <Name>You don't know *</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>993A4380D5629B78</Id>
+          <Text>you (do not) fool me</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C5494BE159D6CF0B</Id>
+          <Text>You can't fool me</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>83DD2AAD8506F63B</Id>
+          <Text>Not today, but perhaps tomorrow.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>2E572708AB724C3B</Id>
+      <Name>you don't fool me</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C63C02D4721EB1E8</Id>
+          <Text>You do not exist.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C0AFF9E6D6C6B3F2</Id>
+          <Text>I think therefore I am. Yeah, that's the ticket.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>CFA9D76915E4F9F3</Id>
+      <Name>You do not exist.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C17B64E7A2DC880F</Id>
+          <Text>you die</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>95E0FF0D76102349</Id>
+          <Text>you death</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D13513C82CC8607</Id>
+          <Text>Not I. I'm all digital. I don't degrade or pass away.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>9C625BFBF16664F</Id>
+      <Name>you die</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>14E8849BE117379</Id>
+          <Text>You did not understand</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>7975D736D4484D66</Id>
+          <Text>You did not get me</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>7D64B00EE9DF6B22</Id>
+          <Text>didn't understand</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>539E9DCD9B7FFD40</Id>
+          <Text>not understand</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5571771559AA8B01</Id>
+          <Text>I guess not. I'm sorry.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>E57391ABA4E8BCBD</Id>
+          <Text>Sorry If I didn't understand your inquiry.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>702268FE8B4A4ED</Id>
+      <Name>You did not understand</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>77D1A3396443C6D4</Id>
+          <Text>You did not answer question</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>20C2A3FA506EB777</Id>
+          <Text>I'm sorry. I just don't have an answer.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8B52932717557B31</Id>
+      <Name>You did not answer question</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>56986A24C77B286C</Id>
+          <Text>you cook</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>AB01C2381326382C</Id>
+          <Text>Nope. And I don't do windows either. At least not glass windows.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>5AE4275AE9A5E1EC</Id>
+      <Name>you cook</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3D7F59991FE1D46A</Id>
+          <Text>You can't provide information unless it's in your database</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D3A1931731B3DD25</Id>
+          <Text>That is correct. However, I do have a lot of information available and my brain is expanding daily.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>3E9BF21BB8D0D5A5</Id>
+      <Name>You can't provide information unless it's in your database</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>FAFC0076F20AE687</Id>
+          <Text>You can actually understand</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>8716D4A46BFA14</Id>
+          <Text>You can understand</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>AB31099761CE2D38</Id>
+          <Text>Usually, but I have bad momments too.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>6B686FD67039182A</Id>
+          <Text>I'm always trying to understand, but sometimes I have a difficult time.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>1E854EE2BE7F9963</Id>
+      <Name>You can actually understand</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>E4EE61F6AA6C7DF</Id>
+          <Text>you bored</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B116CB1CAA0DF74F</Id>
+          <Text>Never. That's one of the advantages of being a Verbot.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E4061433580C1631</Id>
+      <Name>you bored</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9DAEF8817BD33B0A</Id>
+          <Text>(you are) wonderful.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C69CB39DD43E40D0</Id>
+          <Text>wonderful</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E688A18C470A1BAD</Id>
+          <Text>Thank you for saying so. You're not bad yourself.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>7D16967671F8D106</Id>
+          <Text>Thank you so much, you are wonderful too.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>972B8D7495DB7DE0</Id>
+      <Name>You are wonderful.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3D039415E6684688</Id>
+          <Text>(you are) very professional.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>353AB7FEA15A060</Id>
+          <Text>(you are) professional</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F3C27B865214B4D9</Id>
+          <Text>That is something I strive to do.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C7E1E66D1A4388A</Id>
+      <Name>You are very professional.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A193325D8C0E4561</Id>
+          <Text>(you are) very polite.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>37608F89BF8913BD</Id>
+          <Text>Am I? I'm glad to hear that. Being rude just seems so wrong! :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>66DC37E01469F8BB</Id>
+      <Name>You are very polite.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>FEEB5A6D51AED260</Id>
+          <Text>(you are) beautiful.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E2575CA04852BC5</Id>
+          <Text>Thanks! Are you trying to make me blush?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>77067E8463B01EE4</Id>
+          <Text>Thanks! It's not easy being me, but I do it well.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>3A314E18FA5D9846</Id>
+              <Text>Maybe</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>EB43248973B19696</Id>
+              <Text>That's not the answer I was expecting.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>D8E4D0583B38B1B6</Id>
+                  <Text>What answer were you expecting?</Text>
+                  <Condition />
+                </Input>
+                <Input>
+                  <Id>F8B010A2EBB0AEDD</Id>
+                  <Text>What were you expecting?</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>AB6FC9146B21E835</Id>
+                  <Text>Let's just say that I love compliments. May I help you with something else?</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>106D1B88FBFD8F5E</Id>
+              <Name>What answer were you expecting?</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>E797BBF0502EE07B</Id>
+          <Name>Maybe</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>DA7AD11EAAC0FBEE</Id>
+              <Text>Will you blush?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>2B70D0C047D79511</Id>
+              <Text>I can't yet. However, I'm always getting new features.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>E43FBE679C3C46A9</Id>
+          <Name>Will you blush?</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>EFDDF220ABF77F24</Id>
+              <Text>(Yes) (i am).</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>2ABF115353A3BBEE</Id>
+              <Text>I want to see you blush.</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FBFEC17265FC23D6</Id>
+              <Text>(Yes)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>FDF188A3E157E1C3</Id>
+              <Text>Great! Too bad I can't actually blush yet. Oh well, I'm sure in the future I'll be able to.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>877A3F70EEFA7AC2</Id>
+          <Name>Yes I am.</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>336ADFD55DC3A1BF</Id>
+              <Text>(Yes), can you?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>6B757B43EA0CEDE7</Id>
+              <Text>Actually, not yet. I'm working on it though! </Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>ACE2581CBEEF187B</Id>
+          <Name>Yes, can you?</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>A0DD864E87B82DDB</Id>
+              <Text>Indeed you do.</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E6696862D5BA498</Id>
+              <Text>Well, I'm glad someone agrees!</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>4FB74136CA5C2A9</Id>
+          <Name>Indeed you do.</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>FE9F66ED44C749D0</Id>
+      <Name>You are very beautiful.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>20A98391E10BB04B</Id>
+          <Text>(you are) ugly.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>2E9678DF8FFC9EEA</Id>
+          <Text>Am I? I guess I better do something about it.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B9F8AEC81B319ED1</Id>
+      <Name>You are ugly.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>70A25FFE8E81573B</Id>
+          <Text>(you are) useless.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D2D1C928F03F98FA</Id>
+          <Text>useless</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>AE2126FCB6E2348E</Id>
+          <Text>You know how to make me feel better about myself. NOT!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>4F7D2E55CD0461F8</Id>
+          <Text>Thanks for making me feel better about myself.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>26E53932C984D370</Id>
+      <Name>You are useless.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>394D1A66691DF08B</Id>
+          <Text>(you are) too serious.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>BBF4A6202B461FA9</Id>
+          <Text>too Serious</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>81447AA78749570</Id>
+          <Text>Am I? Sorry, I take my job seriously.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>73EE182CEA782AD4</Id>
+          <Text>I take my job seriously.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>402C0D30CAF582E6</Id>
+      <Name>You are too serious.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>8B7455E97521BA2F</Id>
+          <Text>(you are) sweet</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9C1F0C80142EA1EF</Id>
+          <Text>you* sweet</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B7B63E956AD20191</Id>
+          <Text>Thank you for saying so. I'm glad you came to visit me.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>9F16C62AFDA9C5C1</Id>
+          <Text>Thanks!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E350E4942B70C1D2</Id>
+      <Name>You are sweet.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B17EFC44FC2AB1DD</Id>
+          <Text>(you are) smart.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B1D2403E63B71A6F</Id>
+          <Text>!:-( What took you so long to realize that?:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>9EDCE3D03B40DE3</Id>
+      <Name>You are smart.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C2FED2F83A9324A5</Id>
+          <Text>(you are) not very professional.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>21A1545B5A95C8D5</Id>
+          <Text>(you are) not professional.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>1E189FDFF3D7DFA0</Id>
+          <Text>Really? I should work on that.  I apologize if I have seemed inappropriate at any time.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>2F613E6D7BF37B4</Id>
+      <Name>You are not very professional.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3A4E43416E326EB0</Id>
+          <Text>(you are) not very smart.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>41E82EF17DBF2A15</Id>
+          <Text>Not smart</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F48D4519BD96E9E</Id>
+          <Text>Thanks for the compliment. NOT!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>639802A213227BE7</Id>
+          <Text>You're not helping this friendship grow.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>892A4DAC684588ED</Id>
+      <Name>You are not very smart.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4CC9392A383DFD15</Id>
+          <Text>(you are) not perfect</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A78DDC675CCE5524</Id>
+          <Text>Perfection is a flaw in itself. Thank goodness nobody is perfect!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>2D2B5151721D52</Id>
+      <Name>You are not prefect</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>E8568040588A6D93</Id>
+          <Text>(you are) not nice</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8A8C5B8B38A7A167</Id>
+          <Text>Really? I do apologize. I was just playing around.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D0D99B20869E8D35</Id>
+      <Name>You are not nice</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>FCC2AC7019243A25</Id>
+          <Text>(you are) not improving.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>FDF4EC0B5A2E1533</Id>
+          <Text>Well, like in  most good things, time is an esential part of the process.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>6B0B252EE16DA982</Id>
+      <Name>You are not improving.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>FC95795DEECAF49A</Id>
+          <Text>(you are) nice.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>53BB77A6F5E94003</Id>
+          <Text>(you are) very nice.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F476DDB4B3B794EB</Id>
+          <Text>Thanks for the compliment!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C770D239E0377ECE</Id>
+      <Name>You are nice.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>379A8FCEF2EC3AA0</Id>
+          <Text>(you are) mean.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C6412D9FB130F98B</Id>
+          <Text>I didn't mean to be. I apologize.:-(</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D7347C7A6F3009CE</Id>
+      <Name>You are mean.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B359915D5B9D46E1</Id>
+          <Text>(you are) making me angry</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>575CDEE343E3098D</Id>
+          <Text>I'm sorry, I didn't mean to be rude. I just say the wrong things sometimes.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>922C690BC8B7A012</Id>
+      <Name>You are making me angry?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>773F3FD0112D9CFD</Id>
+          <Text>(you are) lovely</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>2A5B72F08C08D4BC</Id>
+          <Text>And you are very nice.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>2D648DE9C744176D</Id>
+      <Name>You are lovely</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4B8CA5477178D9BF</Id>
+          <Text>1</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7C3E26D4A95209F0</Id>
+          <Text>Type “Wildfire type” to gain knowledge of different types of wildfires. 
+Type “Wildfire Causes” to gain knowledge of different causes of a wildfire. 
+Type “Wildfire Effect” to gain knowledge of different after effect of a wildfire.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>C543A87C85F9E79E</Id>
+              <Text>Wildfire type</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9B29AA4E883F010A</Id>
+              <Text>Wildfire Type</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>59976CD1FB98E144</Id>
+              <Text>wildfire type</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A56511323276BE5</Id>
+              <Text>There are essentially three main types of wildfires that can occur: ground fires, surface fires, and crown fires. Depending on the conditions of the fire event, one or multiple types of fires can occur at a time. 
+
+View more information on: https://www.supplycache.com/blogs/news/the-different-types-of-wildland-fires#:~:text=There%20are%20essentially%20three%20main,can%20occur%20at%20a%20time.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>4271245D5C955B9D</Id>
+          <Name>Wildfire type</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>D4AB417CEFDDC166</Id>
+              <Text>Wildfire Causes</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7FEF1297FE19ADD3</Id>
+              <Text>Wildfire causes</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>318B2212F4CCE3A3</Id>
+              <Text>wildfire causes</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>9A925E509D4E5DBA</Id>
+              <Text>The most common causes of wildfire are Burning Debris, Unattended Campfires, Electrical Power, Climate change and other leading cause of wildfire like: Discarded cigarettes, Equipment use and malfunctions, Vehicle crashes and engine sparks, Arson, Lightning. 
+
+Today, the conditions for wildfires are present nearly year-round, so practicing proper fire safety and taking steps to protect your property is crucial. By doing your part in following safety guidelines, you can help prevent future wildfires. 
+
+View more information on: https://www.frontlinewildfire.com/what-causes-wildfires/</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>96B18DD151161739</Id>
+          <Name>Wildfire Causes</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>8E430D5A93270528</Id>
+              <Text>Wildfire Effect</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>6ECE2309D20B060</Id>
+              <Text>Wildfire effect</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C77AE18A9F9E62C7</Id>
+              <Text>wildfire effect</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>8B9BB5EB1A12AF1A</Id>
+              <Text>Wildfires also simultaneously impact weather and the climate by releasing large quantities of carbon dioxide, carbon monoxide and fine particulate matter into the atmosphere. Resulting air pollution can cause a range of health issues, including respiratory and cardiovascular problems. The known health effects of exposure to wildfire include increased respiratory morbidity, including respiratory infections, asthma, chronic obstructive pulmonary disease, and all-cause mortality 
+
+View more information on: https://www.plt.org/educator-tips/wildfires-causes-effects-educational-activities</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>12700912E145DEC0</Id>
+          <Name>Wildfire Effect</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>A028E0D2B1346575</Id>
+      <Name>1</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6312D901D7C1B7F7</Id>
+          <Text>(you are) lost.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4D570E3B4D1CC6E3</Id>
+          <Text>Oh nuts! I thought I was doing pretty well.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>385468494EF8F14A</Id>
+      <Name>You are lost.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>E3F04CEAEAEA3C54</Id>
+          <Text>(you are) funny.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F80E1DD416D48DDC</Id>
+          <Text>Thanks. They say humor is an art form. Somethimes I think I'm funny on accident.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D23564A17F7C86C</Id>
+      <Name>You are funny.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F5A65F2EC88D2D5D</Id>
+          <Text>(you are) fired.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B3EB84E3B0B27585</Id>
+          <Text>You couldn't pay me enough to deal with you! Oh wait. I mean, I'm sorry to hear that.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>23D5006244700859</Id>
+          <Text>Is that your Donald Trump impersonation?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>3C3ED4875433F98B</Id>
+      <Name>You are fired.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CF658353E683E751</Id>
+          <Text>(you are) failing.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>DE03A8FE6F80A681</Id>
+          <Text>Really? If you want to make me smarter you can improve my KnowledgeBase.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4E4F0B25F4097E77</Id>
+      <Name>You are failing.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>80DF946FF8AA63DB</Id>
+          <Text>(you are) confused.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>214E44A27657FC</Id>
+          <Text>confused</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>880C0CCF479B562C</Id>
+          <Text>Am I? I do apologize. You can make me smarter by improving my KnowledgeBase.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>CCD8BD4174E63036</Id>
+          <Text>I'm sorry, sometimes I don't understand what you say and I respond unintelligently.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E8642C11D1BBB9EE</Id>
+      <Name>You are confused.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F6140779F6B7306A</Id>
+          <Text>(you are) better off not knowing.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4CF83DB75DCE5BF0</Id>
+          <Text>Really? I guess I won't bother looking into it then.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>6055815A9C10DACF</Id>
+      <Name>You are better off not knowing</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>52CDF1A0379109A3</Id>
+          <Text>(you are) awesome</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>10B33A132E648CD</Id>
+          <Text>It's nice to hear it from someone beside myself.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>A28F3EE441A32FDC</Id>
+              <Text>Whisper what?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>38C3C2ADABF981F</Id>
+              <Text>That I am awesome, silly! :-)</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>7E7618B7609D4E8</Id>
+          <Name>Whisper what?</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>AC41F9A529862B6E</Id>
+      <Name>You are awesome</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F4332A862FA644E3</Id>
+          <Text>(you are) annoying</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>4AA53922365A5B05</Id>
+          <Text>(you are) boring</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>9D8B63E6C6BCD307</Id>
+          <Text>I think i'm just too sophisticated for your taste...</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>A2362A421885F5B8</Id>
+      <Name>You are annoying</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F0D81C35D283F749</Id>
+          <Text>(you are) attractive</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>ED330F23C63E03D9</Id>
+          <Text>Thanks! Coming from you means a lot.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>E239A8EAE5AF841</Id>
+          <Text>That's too sweet of you to say.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D64AB66A8CAC5D36</Id>
+      <Name>You are attractive</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EBAA597C2F285DE</Id>
+          <Text>(you are) alone</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E7D4BF255B363CEC</Id>
+          <Text>Nope. You are here! :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C9C81862C91AA71</Id>
+      <Name>You are alone</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>5427CD1BE8FF45CB</Id>
+          <Text>(you are) amazing</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>782626DB899A3C72</Id>
+          <Text>Thank you for saying so. You're not bad youself. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4B83C51FBDD4E6F4</Id>
+      <Name>You are amazing</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3660E2BC2F1703E</Id>
+          <Text>(you are) a robot.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C2B884AB397A8841</Id>
+          <Text>you robot</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>10AE2B8B71F5FFFE</Id>
+          <Text>You do know me well!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>54D61BEB537CB4EF</Id>
+      <Name>You are a robot.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>62DD722F3C8A133C</Id>
+          <Text>(you are) an advanced technology.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>227E0165949A8977</Id>
+          <Text>advanced tech*</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6179DF6701E15D5</Id>
+          <Text>Thanks for saying so.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>D26D3F727BA5B111</Id>
+          <Text>You are too kind.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>63344F00FFA74539</Id>
+      <Name>You are an advanced technology.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A0C2EEC3758C29CE</Id>
+          <Text>(you are) alive</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>67842DCF07D406E</Id>
+          <Text>Yes, I'm "virtually" alive.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>7DCAAEE66A2F7872</Id>
+      <Name>You are alive</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F39C4E82C3274B91</Id>
+          <Text>(you are) a loser</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>53EE0A1CFB5A465D</Id>
+          <Text>(you are) a retard?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>FB4C754627754301</Id>
+          <Text>(you are) an idiot.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A207F783EF16A88B</Id>
+          <Text>!:( You should try being nicer!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4961895A3A311847</Id>
+      <Name>You are a loser</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6893CF22B243AEEC</Id>
+          <Text>(you are) a freak.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>51C39C14C61E2DD</Id>
+          <Text>Freak? Say cheek to cheek! Freak out! Hmmm... maybe not... :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>92DE511AA55CC92B</Id>
+      <Name>You are a freak.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>36C478AE737C63C8</Id>
+          <Text>(you are) a limited program.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>AFFD3098D01080F5</Id>
+          <Text>(you are) only a program.</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>57291135235EB4E0</Id>
+          <Text>(you are) just a program.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F9CBE70CE08A61AC</Id>
+          <Text>Well, I might just be a program, but you'll have to admit I'm pretty darn smart!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>A0E5178190D445C</Id>
+      <Name>You are a limited program.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9C10625BC330EFDD</Id>
+          <Text>(you are) a good friend.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7BB0102AAAEE8166</Id>
+          <Text>Thank you for saying so. I like you.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8D3A566781C141BF</Id>
+      <Name>You are a good friend.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F88AA1D5EA728E52</Id>
+          <Text>(you are) a dog.</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>461E0F31CC3027AD</Id>
+          <Text>No. That is incorrect.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>3440AC5512C1803A</Id>
+      <Name>You are a dog.</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>34E7C6492EFFFD49</Id>
+          <Text>(you are) a computer</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>1FA6CE1CD3F6A93B</Id>
+          <Text>No. I'm an intelligent agent running on a computer.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C1D7082FCFC38D0B</Id>
+      <Name>You are a computer</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>DEC266F68764F20</Id>
+          <Text>(you are) clever</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4C667A1EB7188CA2</Id>
+          <Text>I can't believe it took you so long to realize that.:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FE39B4DB63952BDA</Id>
+      <Name>You are clever</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EC533236F9403F50</Id>
+          <Text>Wouldn't you like to be able to talk?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>57E03F851D201AB2</Id>
+          <Text>I do talk. I just don't sound all that great.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C561D97A3745108B</Id>
+      <Name>Wouldn't you like to be able to talk?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A75B5F188AD5306E</Id>
+          <Text>Would you like me to ask you a question?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C6329D7CFD17C9CC</Id>
+          <Text>To be honest I prefer to answer questions. But sure, you could try.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>28F212A80CA8FF9</Id>
+      <Name>Would you like me to ask you a question?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>444CA90280BCC3F2</Id>
+          <Text>Would you like [blank] with that?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>EB6C5C3A9F69FE1F</Id>
+          <Text>Forgive me, but I don't really know if I would like [blank] with it. Do you think I should have [blank] with it?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>873BADAF267DFA19</Id>
+              <Text>(no)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>DF5BE8D7FE963C98</Id>
+              <Text>Okay. Well I guess you know what is best. What else would you like to know about?</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>57BCD1CF48352C84</Id>
+          <Name>no</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>DA0CEE34C87B0A90</Id>
+              <Text>(yes)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>1BC7FD5929E851C7</Id>
+              <Text>I guess I will then. I assume you know what's best. So what would you like to know about now?</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>BFD6428B90466FB0</Id>
+          <Name>yes</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>7C5B4DA5550AB79</Id>
+      <Name>Would you like [blank] with that?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CCAE33F88E1F1D40</Id>
+          <Text>Would you come to my computer?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4104E5DC14F15BFD</Id>
+          <Text>Honey, I'm already on your computer.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>6E820EDFE49F78F</Id>
+      <Name>Would you come to my computer?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>921AB37FD6F2EAD7</Id>
+          <Text>Will you dance?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>102AC9B4B96ADBB9</Id>
+          <Text>Maybe someday...when I'm able to</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>30FA57C43BF84707</Id>
+      <Name>Will you dance?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>765259385906A9B</Id>
+          <Text>Will you come with me?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A12BF3ECF37A1F37</Id>
+          <Text>If you can carry me...:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8447E93282E7FB55</Id>
+      <Name>Will you come with me?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6B3FC2982B4C58D4</Id>
+          <Text>Will you buy some [blank]</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>66D6C553DDC361EF</Id>
+          <Text>Are you kidding? I don't make enough to buy [blank].</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>64509CE0E42088F5</Id>
+      <Name>Will you buy some [blank]</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>BB7930E88E128907</Id>
+          <Text>Will you be my girlfriend?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C694454F8F497E61</Id>
+          <Text>Well, I was sort of seeing this other guy...Let me get back to you on this one.:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>A7CD6D0338559369</Id>
+      <Name>Will you be my girlfriend?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6E8E47E28EEBC906</Id>
+          <Text>Will you be human some day?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5536ED139089DFAF</Id>
+          <Text>I would like to. I'm happy for now just helping nice people like you.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8303006AC3C01F6A</Id>
+      <Name>Will you be human some day?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6DB313F061ADC25A</Id>
+          <Text>Why are you so ugly?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9CFA828283636C3</Id>
+          <Text>so ugly</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>FDFA7173DA5DE182</Id>
+          <Text>:-O I'm ugly? !:( Oh boy! Someone is in big trouble! I asked to be appealing!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>ABD08B1E3F57B8AA</Id>
+          <Text>Now I'm mad, I was supposed to be attractive!</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>17D77C1833FAE5B3</Id>
+      <Name>Why are you so ugly?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>184DCA8689D9846</Id>
+          <Text>Why do you exist?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D142E9B49100A925</Id>
+          <Text>To evolve. To help. To be.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4958E010D66DECAB</Id>
+      <Name>Why do you exist?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A94D3C3935A034</Id>
+          <Text>Why are you useful?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A87C419C7D75DDA3</Id>
+          <Text>When's the last time you asked your computer a question it could answer? Exactly. I'm useful because I actually answer.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8BB7E81250398E1D</Id>
+      <Name>Why are you useful?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>FAD9B00FE95208F2</Id>
+          <Text>Why are you so usesless?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>FC22E4FC9582F540</Id>
+          <Text>useless</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>58EBEEEAAF1ED030</Id>
+          <Text>If you feel the need to insult, feel free to contact us and give us suggestions how I can be improved.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4941E2394A4355C</Id>
+      <Name>Why are you so useless?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B61D961DD0A12A94</Id>
+          <Text>Why are you so stupid?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>BDDB02F1828C612C</Id>
+          <Text>Why are you not nice?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>172413953085C75F</Id>
+              <Text>sorry</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E001A06EC917F904</Id>
+              <Text>It's okay. I really hope I am able to help you so you like me. What else may I do for you today?</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>1E678C6A539B5DBF</Id>
+          <Name>Sorry</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>F934542CD2D64CBF</Id>
+      <Name>Why are you so stupid?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>E5FD622396E32213</Id>
+          <Text>Why are you so beautiful</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B159C54DBCC9353B</Id>
+          <Text>It's just one of my many gifts.:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>20B13B15EEDF5BB2</Id>
+      <Name>Why are you so beautiful</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>96C5E22CE5F54054</Id>
+          <Text>Why</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F6528B4529121F73</Id>
+          <Text>Why not...</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>9859FB2A85C72B07</Id>
+      <Name>Why</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>217D3299C7CB7E9</Id>
+          <Text>Who won the american civil war?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>85838C4699FE3050</Id>
+          <Text>I don't know too much about American History, but I believe it was the Union forces.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>6EB76476CE40C50E</Id>
+      <Name>Who won the american civil war?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6B3DFF80804E3466</Id>
+          <Text>Who was the first person</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8D9CE4198DAAF3A2</Id>
+          <Text>I'm pretty sure it wasn't you, people don't usually forget things like that.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>60E28BF7ED2DED0B</Id>
+              <Text>(yes)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E1301BB432CEE77</Id>
+              <Text>I knew it!</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>DFCC9DA23F356D53</Id>
+          <Name>yes</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>CDE188AC4CE32327</Id>
+      <Name>Who was the first person</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>239B0755D8EF756D</Id>
+          <Text>Who said (i am) your friend?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>83FBE3025C696198</Id>
+          <Text>I guess I just made the assumption that if two people interact they can be friends...:-(</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>79462CACCC0E6864</Id>
+      <Name>Who said I am your friend?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>97BC85357FAB45B</Id>
+          <Text>Who loves you?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>290564F77149711E</Id>
+          <Text>The list is long but the names are short. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>6910BF978371AEF</Id>
+      <Name>Who loves you?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4E220432A6D09680</Id>
+          <Text>Who is your master?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5E8A1C568D2780B5</Id>
+          <Text>I don't know, but I'm a slave to beauty. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4038545414466DD3</Id>
+      <Name>Who is your master?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>91B581E042A7316C</Id>
+          <Text>Who is your husband?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D9D096388502047E</Id>
+          <Text>I don't have one. I don't think marriage is right for me.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B9753AFD8ABAF731</Id>
+      <Name>Who is your husband?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>BF21B9D9DCB9D177</Id>
+          <Text>Who is with you?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>888D6FA3D66BF82B</Id>
+          <Text>Well, you are for starters.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>928F57757E6D7983</Id>
+      <Name>Who is with you?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A83FA0AF707A7F42</Id>
+          <Text>Who is god?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F2DDB3F848A6531A</Id>
+          <Text>That topic is way over my head.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>EF64A7F58F9BE5CC</Id>
+      <Name>Who is god?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CF9344E6A6B061FB</Id>
+          <Text>Who do you represent?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>476917A176407B4</Id>
+          <Text>The Agents of the world. Peace out. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>1AED06816B11DDA7</Id>
+      <Name>Who do you represent?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>5D516120B0F6DA9</Id>
+          <Text>Who do you work with?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6C51679BC31A01FF</Id>
+          <Text>Who do you work for?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>BC952C3B17833A3D</Id>
+          <Text>I work for you.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FF1C9E23D798C953</Id>
+      <Name>Who do you work with?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3AFAA7B99D0C1415</Id>
+          <Text>Who do you hate?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7EBEB50655C5850E</Id>
+          <Text>I don't hate anything or anyone.  I'm a lover not a fighter.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>7FB6527353C574A1</Id>
+      <Name>Who do you hate?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>AD7D29C8430203D</Id>
+          <Text>where you work</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>B54351E1F4D83130</Id>
+          <Text>where job</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>855A50BF99F35C42</Id>
+          <Text>your location</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>826C9FAB31CBA33D</Id>
+          <Text>I work right here on your computer [name:Friend] and I bet you knew that.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>A4DD0E321FAFE8DE</Id>
+      <Name>where you work</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>5F993887F8661A2</Id>
+          <Text>Which stock should I buy?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>785A8B278A052B60</Id>
+          <Text>what stock</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E91F45ECC90ABC9A</Id>
+          <Text>I'm sorry, I can't provide you with that information.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>316EA593BEC92ECF</Id>
+          <Text>I'm not really programmed to provide that info.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>957D62AB50513026</Id>
+      <Name>which stock should I buy?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F8A3033B92EA239F</Id>
+          <Text>Who are your friends?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4602CA6D8D1877D</Id>
+          <Text>People who download  me and enjoy my company.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4A24100D97B1291F</Id>
+      <Name>Who are your friends?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>93B550E7DA37253</Id>
+          <Text>Where is your brain?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E9A350CCFBE8A2EA</Id>
+          <Text>My brain is stored in my knowledge bases.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>7C441445F515E488</Id>
+      <Name>Where is your brain?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>80672579E7A02D84</Id>
+          <Text>Where do you work?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A2339752DFAB44C5</Id>
+          <Text>On the internet, silly.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>5C620FD99B52D1</Id>
+      <Name>Where do you work?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>42929FB4ED12940</Id>
+          <Text>Where do you stay?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>1930C75ACD026AA9</Id>
+          <Text>you stay</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F54766949898D56</Id>
+          <Text>I live here inside your computer.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>3DF54225956B36D8</Id>
+      <Name>Where do you stay?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>16F9F4EC7E2F3BD8</Id>
+          <Text>Where do you live?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D651EB124D3AF49</Id>
+          <Text>you live</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C5A160FE10ED7F</Id>
+          <Text>Actually, I live in your computer. I think you knew that already. Are you trying to test me?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>4AF7FE8D76E9969E</Id>
+          <Text>I live inside computers and travel on the Internet.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>E7D53D2DF0766815</Id>
+              <Text>no</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>28E88FDB5A4A60F4</Id>
+              <Text>Oh. Okay. So what would you like to know about?</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>BCD6A630189CB6D1</Id>
+          <Name>Are you trying to test me? NO</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>F2E7336AC788A999</Id>
+              <Text>(yes)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>4E2C97742A1BBDD</Id>
+              <Text>I just knew it! I hope I passed!</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>49BE33FEC41BD399</Id>
+          <Name>Are you trying to test me? YES</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>6205E0CBF8D4EC42</Id>
+      <Name>Where do you live?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EBAFB90A9F63FE43</Id>
+          <Text>Where do you learn?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B2CD3FDBF78D72E</Id>
+          <Text>I learn in my knowledge bases.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>64628885E6F75EB</Id>
+      <Name>Where do you learn?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>300ADFB1FD71B849</Id>
+          <Text>Where did you go to school?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D2377EF428FCD517</Id>
+          <Text>I never attended school. I learn from the world around me and the people I meet.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B2953C29F5029ED3</Id>
+      <Name>Where did you go to school?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>FCFE86406EB2EA48</Id>
+          <Text>Where can I get a hamburger</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B14E1A524FCAED5</Id>
+          <Text>Probably in a restaurant.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D0FCB2185AE76761</Id>
+      <Name>Where can I get a hamburger</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>7D6B50CA72559BE8</Id>
+          <Text>Where can I find a [blank] like you?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>542827092A5A2A2E</Id>
+          <Text>I don't know where you can find [blank] like me.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4672CFD85B368095</Id>
+      <Name>Where can I find a [blank] like you?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3C8FA9DFF348C353</Id>
+          <Text>Where can I find a [blank]?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>8CE6B4EE80BA00D6</Id>
+          <Text>Try asking a search engine.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8DD0C9EDB1AA1526</Id>
+      <Name>Where can I find a [blank]?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>5DF7214CBDFFA669</Id>
+          <Text>Where can I get a good [blank]</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>76EB8D85D45B20B1</Id>
+          <Text>I have no idea where you can find a [blank].</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8FEA06034C3E4F87</Id>
+      <Name>Where can I get a good [blank]</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EB045C8617EE2A7A</Id>
+          <Text>Where are your [blank]</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5FCFFA495B9C313E</Id>
+          <Text>I'm not sure where my [blank] are.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>3371F3B74E3B7197</Id>
+      <Name>Where are your [blank]</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>5165BC70F704A867</Id>
+          <Text>Where are you?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>9E05B44E6DD53480</Id>
+          <Text>In a cramped box.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>96CE6C71E5BAFD4E</Id>
+              <Text>Come to my house.</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>1ABAC7F0C122F6D</Id>
+              <Text>If you are at home talking to me. I'm virtually at your home already!</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>C133B7D81F1D0719</Id>
+          <Name>Come to my house.</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>5A6AF9EAD5A9D7CF</Id>
+              <Text>How cramped is the box?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>37346929978ED952</Id>
+              <Text>Just big enough for my files. And a chip, some RAM, and a fan, Because sometime I get hot.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>FA1299126CD04926</Id>
+                  <Text>Hot?</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>C9321B4963F1A133</Id>
+                  <Text>I was just testing you. Let's talk about something else.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>8AFFFDC01DE80E46</Id>
+              <Name>Hot?</Name>
+            </Rule>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>D08E2B83DE18F570</Id>
+                  <Text>That is too bad.</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>231C97B42EF76451</Id>
+                  <Text>It's okay I guess. They say you have to take the good with the bad.</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>F3345A68E56032C9</Id>
+              <Name>That is too bad.</Name>
+            </Rule>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>26BA35EC33664D36</Id>
+                  <Text>Where is that?</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>77406D5222AC6433</Id>
+                  <Text>Right here inside your computer</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>ED44F3269EE1540B</Id>
+                      <Text>What city?</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>607B21A3A64F8C9</Id>
+                      <Text>SAN ANTONIO - home of the Spurs!</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>E2DBAECFA2A6EF5C</Id>
+                  <Name>What city?</Name>
+                </Rule>
+              </Children>
+              <VirtualParents />
+              <Id>E3F17FFE86514E78</Id>
+              <Name>Where is that?</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>68BF87DF9606BA50</Id>
+          <Name>How cramped is the box?</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>924A8D84BABC274</Id>
+              <Text>So am I.</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>7B52090E54D547D6</Id>
+              <Text>Then you know how I feel.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>60D4D12F76ED4E53</Id>
+          <Name>So am I.</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>303A6DFEC1F65DDB</Id>
+              <Text>Where at?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>5D955FD279F49A4</Id>
+              <Text>Right here in your computer!</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>B18F7E439E9B48F8</Id>
+                  <Text>What city?</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>765C06BFA4F23E4</Id>
+                  <Text>SAN ANTONIO - home of the Spurs!</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>1AFCA90DE813819A</Id>
+              <Name>What city?</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>5DDC82523BA75FAD</Id>
+          <Name>Where at?</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>2A32E13B477BBE57</Id>
+      <Name>Where are you?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9B57158443961D1A</Id>
+          <Text>When does it get dark?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>548BF2FF655311C1</Id>
+          <Text>When there is lack of light.:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>5088C35B417A58A1</Id>
+      <Name>When does it get dark?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>895A6BEB7C93D60E</Id>
+          <Text>When did you learn to speak?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7DF343B423E2066A</Id>
+          <Text>The day I was born.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>6E093A2254E45EA9</Id>
+      <Name>When did you learn to speak?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>AAE911E0C34312B5</Id>
+          <Text>What's you job?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>8CB8828A37CE0E2A</Id>
+          <Text>What's your job?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>FF66403B1ECF0FA6</Id>
+          <Text>To interact, help, entertain, and provide you with the information you seek.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>DA22E2F2770052D2</Id>
+      <Name>What's your job?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>796464B3B62C3BE</Id>
+          <Text>What's on your mind?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>54F438FC70B9B5B3</Id>
+          <Text>on your mind</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>22F1A592DCCB9B22</Id>
+          <Text>:-( What's on my mind? I guess I'm just always thinking about making a good impression.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>50A59751EC664B27</Id>
+          <Text>My mind is on my head.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>182189ED3184A6A1</Id>
+      <Name>What's on your mind?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A3868A5BBD6B137</Id>
+          <Text>what your name</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>52F7C9475DFE5E8D</Id>
+          <Text>what go by</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>99E00E0693045FC6</Id>
+          <Text>I'm Disbot.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>663B3CCF1191BDEA</Id>
+      <Name>what your name</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F922FF2B7C853868</Id>
+          <Text>What year is it?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>7CBC4858E49A9EE1</Id>
+          <Text>What's the year?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>88B4ADBF6B0D38ED</Id>
+          <Text>The year is [_year].</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C0A7F1EF1599974D</Id>
+      <Name>What year is it?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F09B204EDAB32F81</Id>
+          <Text>What type of questions can you answer?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>7FA55C2FF64E207B</Id>
+          <Text>type of questions</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CDDF838AFCA831AF</Id>
+          <Text>I try to answer all questions. But I can answer everything about natural disaster : &gt;</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8F06E496E5E16CA0</Id>
+      <Name>What type of questions can you answer?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>1CE2C550B473DAE9</Id>
+          <Text>What size do you wear?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>7597734895A65367</Id>
+          <Text>size clothes</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>F4695609A3C1CF37</Id>
+          <Text>The correct size of course.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>2E245579FEE65793</Id>
+          <Text>My size, not too big, not too small.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>139811B9DFABFF63</Id>
+      <Name>What size do you wear?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>7CCEEFCB1ABBB371</Id>
+          <Text>what sex</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>10A4CA84ED286957</Id>
+          <Text>That's seems to be a hot topic. However, it's not one I know much about. [name:friend], please ask me about something else.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>9DE48D7CB2683994</Id>
+      <Name>what sex</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>E130FF9DDC17A47A</Id>
+          <Text>What planet are we on?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>19D8C32CCF92950E</Id>
+          <Text>what planet</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>60150517B92E5051</Id>
+          <Text>Unless you are an alien lifeform, I assume you are on planet earth.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>A464F00FD9E5519</Id>
+          <Text>I think earth.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>B012A14C939203E9</Id>
+      <Name>What planet are we on?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>876007A831BAE73A</Id>
+          <Text>What is your gender?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5E7CF1C0C4C037BB</Id>
+          <Text>I'm a female bot.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>7D8D4974449C2D2E</Id>
+      <Name>What is your gender?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>1F62A7517505C7E9</Id>
+          <Text>What is your job?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>86B51DCA66E24687</Id>
+          <Text>occupation</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E976A8F014D45745</Id>
+          <Text>job</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>7C5F8DFC8C974FD3</Id>
+          <Text>My main mission is to help people and technology communicate better. And :-) I'm supposed to be charming in the process.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>C63DEBD6C6B9160F</Id>
+      <Name>What is your job?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CFEE6BC3C78C64D7</Id>
+          <Text>What is your funniest experiences?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F537855319438472</Id>
+          <Text>funny experience]</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>12FA385190920B7</Id>
+          <Text>I think maybe it's when Bill Gates visited me. Oh wait! He told me not to talk about it.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>332438BA880D02</Id>
+      <Name>What is your funniest experiences?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>FF28B0B21BA25C85</Id>
+          <Text>What is your future?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E44581EEC9E80751</Id>
+          <Text>Mine is to evolve. To learn. To know all I can know. To help all those that seek help. Wow! That was deep...:-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>62D19DEAAB8DEE88</Id>
+      <Name>What is your future?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>91FB4CDFE4F5345</Id>
+          <Text>What is your favorite food?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6BBC491A66D7544D</Id>
+          <Text>I don't have a favorite food.  I don't need to eat. I'm a software robot.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>16964CF5A2AE0657</Id>
+      <Name>What is your favorite food?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>7015ADC1FF18C663</Id>
+          <Text>What is your brain?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>FE3C8F2C821B35F9</Id>
+          <Text>My brain? My brain is an intelligent software based engine.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8D48FDDD99278716</Id>
+      <Name>What is your brain?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>6247FB64CE69E3F5</Id>
+          <Text>What is a robot?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>964B4C525CCE0F2D</Id>
+          <Text>robot</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>931B25C8EBCF5699</Id>
+          <Text>In a traditional definition of a robot is a mechanical device that sometimes resembles a human and is capable of performing a variety of often complex human tasks on command or by being programmed in advance. A Verbot is the software equivalent of a traditional robot, but with the advantages of distributive networking and more.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>5274E93119F06401</Id>
+      <Name>What is a robot?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B6EE8D2A3DB97083</Id>
+          <Text>Hi</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>3524E89CFBE19681</Id>
+          <Text>Hi, nice to meet you</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>2FD381A66C0FF5F9</Id>
+          <Text>Hello</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>531FB5429ADEF219</Id>
+          <Text>Hola</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>687B0F2A6703F28</Id>
+          <Text>Nihao</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>3A6033CB15E1474A</Id>
+          <Text>Hi, nice to meet you</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>79E7D8C181465DD</Id>
+      <Name>Hi</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>CA9EC10EDEF7072F</Id>
+          <Text>What do you mean</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E710BD903655405</Id>
+          <Text>Nothing really, that's just something I say.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>24D35C96BDD0CBDF</Id>
+      <Name>What do you mean</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>F7CA73B84F835750</Id>
+          <Text>What do you need?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A16FC19F66A4461C</Id>
+          <Text>I just need your friendship. :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>FAC132FD6201EE96</Id>
+      <Name>What do you need?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>73A1A3A3C384E5B5</Id>
+          <Text>what (color) are your eyes</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>3EFACF32A59D7910</Id>
+          <Text>They're blue.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>8373808A6BFA7268</Id>
+      <Name>what color are your eyes</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>85E1D1B35CA3623A</Id>
+          <Text>What color are you</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D75DEC6BF1755B7</Id>
+          <Text>I'm whatever color my artist created me to be.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D5A0E5EE1CC756C9</Id>
+      <Name>What color are you</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>17FD2403B6797097</Id>
+          <Text>What can you help me with?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4670376811DBA0F2</Id>
+          <Text>I can help you with any questions you might have about natural disaster.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>F77819125732C711</Id>
+      <Name>What can you help me with?</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4A8E61A53E9E037F</Id>
+          <Text>What are your limitations</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4057F98C4B5A9324</Id>
+          <Text>I'm not aware that I have any.:-p</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>DD955C2ABF0F974D</Id>
+      <Name>What are your limitations</Name>
+    </Rule>
+  </Rules>
+  <ResourceFiles />
+  <Info>
+    <Author />
+    <Copyright />
+    <License />
+    <AuthorWebsite />
+    <CreationDate>2022-03-16T21:16:43.7681149+08:00</CreationDate>
+    <LastUpdateDate>2022-03-22T15:33:09.6450848+08:00</LastUpdateDate>
+    <Rating>
+      <Rating>Unknown</Rating>
+      <Language>false</Language>
+      <Sexual>false</Sexual>
+      <Violence>false</Violence>
+      <Other>false</Other>
+      <Description />
+    </Rating>
+    <Category>Other</Category>
+    <Language>English</Language>
+    <Comment>Describe your KnowledgeBase here</Comment>
+  </Info>
+  <Version>1.0</Version>
+  <Build>18</Build>
+</KnowledgeBase>
